@@ -45,14 +45,14 @@ class HomeComponent:
     def render_information_section():
         logger.info("Rendering information section")
         with st.container(border=True):
-            st.write("### ℹ️ Explore CrewAI")
+            st.write("### ℹ️ Explore Crewlit")
             st.write("Discover the potential of multi-agent AI automations.")
             
             col1, col2 = st.columns(2)
             with col1:
-                HomeComponent._render_card("About", "ℹ️", "Learn about CrewAI's features and benefits.", About)
+                HomeComponent._render_card("About", "ℹ️", "Learn about Crewlit's features and benefits.", About)
             with col2:
-                HomeComponent._render_card("Docs", "📄", "Access comprehensive CrewAI documentation.", Linked_Docs)
+                HomeComponent._render_card("Docs", "📄", "Access documentation of related projects.", Linked_Docs)
 
     @staticmethod
     def _render_card(label, icon, help_text, page):
