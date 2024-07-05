@@ -1,6 +1,6 @@
 # 🚣 Crewlit
 
-Crewlit is an innovative, open-source Streamlit application that brings the power of CrewAI to your browser. It provides a user-friendly interface for creating, managing, and executing AI agent crews, making multi-agent AI systems accessible to everyone.
+Crewlit is an open-source Streamlit application that brings the power of CrewAI to your browser. It provides a user-friendly interface for creating, managing, and executing AI agent crews, making multi-agent AI systems accessible to everyone.
 
 ## 🌟 Features
 
@@ -24,7 +24,7 @@ Crewlit is an innovative, open-source Streamlit application that brings the powe
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/crewlit.git
+git clone https://github.com/alexnodeland/crewlit.git
 cd crewlit
 ```
 
@@ -40,7 +40,7 @@ poetry install
 poetry run app
 ```
 
-4. Open your browser and navigate to `http://localhost:8501` to start using Crewlit!
+4. Open your browser and navigate to [`http://localhost:8501`](http://localhost:8501) to start using Crewlit!
 
 ## 🔗 Related Projects
 
@@ -53,7 +53,7 @@ Crewlit is open-source software licensed under the MIT license. See the [LICENSE
 
 ## 🙏 Acknowledgements
 
-I'd like to thank the creators and contributors of CrewAI, Streamlit, and all the other open-source projects that make Crewlit possible.
+I'd like to thank the creators of [CrewAI](https://crewai.com/) ([@joaomdmoura](https://github.com/joaomdmoura/)), [Streamlit](https://streamlit.io/), and all the other open-source projects that make Crewlit possible.
 
 ## 🤝 Support
 
