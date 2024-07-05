@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "crewlit"
+version = "0.0.0"
+description = ""
+authors = ["Alex Nodeland <nodeland.alex@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<=3.13"
+streamlit = "^1.36.0"
+crewai = "^0.35.3"
+crewai-tools = "^0.4.1"
+watchdog = "^4.0.1"
+pydantic = "^2.8.0"
+python-json-logger = "^2.0.7"
+
+[tool.poetry.scripts]
+app = "scripts.poetry_scripts:run_streamlit_app"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+flake8 = "^7.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
