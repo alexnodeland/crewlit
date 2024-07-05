@@ -1,8 +1,14 @@
 import streamlit as st
 
 from crewlit.app.components.shared_components import Footer
+from crewlit.utils import get_logger
+
+logger = get_logger(__name__)
 
 def Linked_Docs():
+    logger.info("Setting up the Linked Docs page.")
+    st.set_page_config(page_title="Crewlit - Linked Docs", page_icon="📄", layout="wide")
+
     st.header("Useful Resources")
 
     st.info("This project was built using Streamlit and CrewAI, along with some other great tools.\n\nHere are some additional resources to help you get started")

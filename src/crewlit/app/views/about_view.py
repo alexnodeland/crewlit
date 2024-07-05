@@ -1,7 +1,13 @@
 import streamlit as st
 from crewlit.app.components.shared_components import Footer
+from crewlit.utils import get_logger
+
+logger = get_logger(__name__)
 
 def About():
+    logger.info("Setting up the About page.")
+    st.set_page_config(page_title="Crewlit - About", page_icon="ℹ️", layout="wide")
+
     st.title('🚀 About Crewlit')
     
     st.markdown("""
