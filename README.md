@@ -40,22 +40,7 @@ poetry install
 poetry run app
 ```
 
-
 4. Open your browser and navigate to `http://localhost:8501` to start using Crewlit!
-
-## 📚 Documentation
-
-For detailed documentation on how to use Crewlit, please refer to our [Wiki](https://github.com/yourusername/crewlit/wiki).
-
-## 🛠️ Development
-
-To set up the development environment:
-
-1. Fork the repository and clone your fork.
-2. Install dependencies: `poetry install`
-3. Run tests: `poetry run tests`
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for more details.
 
 ## 🔗 Related Projects
 
