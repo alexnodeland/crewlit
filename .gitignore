@@ -1,0 +1,13 @@
+# Python stuff
+__pycache__/
+*.py[cod
+.pytest_cache/
+
+# Logs
+*.log
+
+# App Input/Output
+/output/
+
+# Misc
+*.pkl
