@@ -2,6 +2,8 @@
 
 Crewlit is an open-source Streamlit application that brings the power of CrewAI to your browser. It provides a user-friendly interface for creating, managing, and executing AI agent crews, making multi-agent AI systems accessible to everyone.
 
+![Crewlit Screenshot](assets/crewlit_home.png)
+
 ## 🌟 Features
 
 - **AI Agent Management**: Create and customize AI agents with specific roles, backstories, and goals.
