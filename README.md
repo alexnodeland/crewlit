@@ -28,19 +28,28 @@ git clone https://github.com/alexnodeland/crewlit.git
 cd crewlit
 ```
 
-2. Install dependencies using Poetry:
+2. Run the application:
 
-```bash
-poetry install
-```
+   a. Using the provided script (recommended):
 
-3. Run the Streamlit app:
+    ```bash
+    ./scripts/run.sh
+    ```
 
-```bash
-poetry run app
-```
+    This script will:
+    - Check if Poetry is installed and install it if necessary
+    - Install or update project dependencies
+    - Run the Streamlit app
 
-4. Open your browser and navigate to [`http://localhost:8501`](http://localhost:8501) to start using Crewlit!
+   b. Alternatively, if you prefer manual setup:
+
+    ```bash
+    poetry install && poetry run app
+    ```
+
+    This command installs dependencies and runs the app using Poetry.
+
+3. Open your browser and navigate to [`http://localhost:8501`](http://localhost:8501) to start using Crewlit!
 
 ## 🔗 Related Projects
 
