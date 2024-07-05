@@ -5,7 +5,7 @@ scrape_website_tool:
     \ and parsing the received HTML content. This tool can be particularly useful\
     \ for web scraping tasks, data collection, or extracting specific information\
     \ from websites. \n\n More info: [crewai-tools](https://github.com/joaomdmoura/crewAI-tools/blob/main/crewai_tools/tools/scrape_website_tool/README.md)"
-  enabled: true
+  enabled: false
   name: Scrape Website
   secrets: []
 serper_dev_tool:
@@ -14,7 +14,7 @@ serper_dev_tool:
     \ query from a text's content across the internet. It utilizes the serper.dev\
     \ API to fetch and display the most relevant search results based on the query\
     \ provided by the user. \n\n More info: [crewai-tools](https://github.com/joaomdmoura/crewAI-tools/blob/main/crewai_tools/tools/serper_dev_tool/README.md)"
-  enabled: true
+  enabled: false
   name: Serper Dev
   secrets:
   - SERPER_API_KEY
