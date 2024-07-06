@@ -53,6 +53,10 @@ cd crewlit
 
 3. Open your browser and navigate to [`http://localhost:8501`](http://localhost:8501) to start using Crewlit!
 
+## 📖 Usage
+
+Refer to the [Crewlit Guide](GUIDE.md) for detailed instructions on using the application.
+
 ## 🔗 Related Projects
 
 - [CrewAI](https://github.com/joaomdmoura/crewAI): The underlying framework for multi-agent AI systems.
