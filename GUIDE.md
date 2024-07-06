@@ -16,6 +16,7 @@ Welcome to the Crewlit App! This guide will walk you through the various functio
 The Crewlit app allows you to create and manage AI agents, tasks, and crews for powerful multi-agent automations.
 
 ![Crewlit Home](assets/crewlit_home.png)
+*Figure 1: Crewlit Home Screen*
 
 ## Task Management
 
@@ -25,6 +26,7 @@ Define objectives for your AI agents. Manage and edit tasks effectively:
 2. Click "Add Task" to create a new task or select an existing task to edit.
 
 ![Task Management](assets/task_editor.png)
+*Figure 2: Task Management Interface*
 
 ## Agents Configuration
 
@@ -35,6 +37,7 @@ Create specialized AI agents with unique roles. Here's how you can configure an 
 3. Define the agent's role, backstory, and goal.
 
 ![Agents Editor](assets/agent_editor.png)
+*Figure 3: Agent Configuration Screen*
 
 ## Crew Configuration
 
@@ -53,7 +56,10 @@ Adjust settings for your agents, including model name, temperature, and more:
 2. Click on an agent within the crew to access and adjust their settings.
 
 ![Agent Config](assets/crew_agent_config.png)
+*Figure 4: Agent Configuration within a Crew*
+
 ![Agent LLM Settings](assets/crew_agent_llm.png)
+*Figure 5: Agent LLM Settings*
 
 ## Tool Configuration
 
@@ -63,6 +69,7 @@ Add powerful capabilities to your agents by configuring various tools:
 2. Click "Add Tool" to enable a new tool or select an existing tool to edit.
 
 ![Tool Configuration](assets/tool_config.png)
+*Figure 6: Tool Configuration Interface*
 
 ## Secrets Management
 
@@ -72,6 +79,7 @@ Manage your API keys and other secrets securely:
 2. Click on "Secrets" to manage your API keys and other sensitive information.
 
 ![Secrets Configuration](assets/secrets_config.png)
+*Figure 7: Secrets Management Screen*
 
 ## Getting Started
 
