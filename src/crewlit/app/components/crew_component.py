@@ -26,6 +26,7 @@ class CrewComponent:
                     self.crew_service.create_crew(label=crew_name, agents=agents, tasks=tasks, crew_config=crew_config)
                     st.success(f"Crew '{crew_name}' created successfully!")
                     logger.info(f"Crew '{crew_name}' created successfully")
+                    st.rerun()
         
     def _task_selector(self):
         logger.info("Selecting tasks")
