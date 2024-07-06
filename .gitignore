@@ -10,3 +10,4 @@ __pycache__/
 
 # Misc
 *.pkl
+.DS_Store
