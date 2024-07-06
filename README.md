@@ -6,13 +6,13 @@ Crewlit is an open-source Streamlit application that brings the power of CrewAI 
 
 ## 🌟 Features
 
-- **AI Agent Management**: Create and customize AI agents with specific roles, backstories, and goals.
-- **Task Definition**: Define tasks for your AI agents to accomplish.
-- **Crew Assembly**: Combine agents and tasks to form powerful AI crews.
-- **Tool Integration**: Enable and configure various tools to enhance your agents' capabilities.
-- **Configuration Management**: Set up global configurations, including API keys and default settings.
-- **Execution Dashboard**: Launch and monitor your AI crews' progress in real-time.
-- **User-Friendly Interface**: Intuitive Streamlit-based UI for easy navigation and management.
+- 🤖 **AI Agent Management**: Create and customize AI agents with unique roles, backstories, and goals.
+- 📋 **Task Definition**: Craft specific tasks for your AI agents to accomplish.
+- 👥 **Crew Assembly**: Combine agents and tasks to form powerful AI crews.
+- 🛠️ **Tool Integration**: Enhance your agents' capabilities with various configurable tools.
+- ⚙️ **Configuration Management**: Set up global settings, including API keys and default parameters.
+- 📊 **Execution Dashboard**: Launch and monitor your AI crews' progress in real-time.
+- 🖱️ **User-Friendly Interface**: Navigate effortlessly with our intuitive Streamlit-based UI.
 
 ## 🚀 Getting Started
 
@@ -58,6 +58,25 @@ cd crewlit
 - [CrewAI](https://github.com/joaomdmoura/crewAI): The underlying framework for multi-agent AI systems.
 - [Streamlit](https://github.com/streamlit/streamlit): The web app framework used for the user interface.
 
+## 🗺️ Roadmap
+
+✅ Completed:
+- UI for creating and managing tasks, agents, and crews
+- Crew execution interface
+
+🚧 In Progress:
+- Multi-tenant configuration support
+- Enhanced output handling (default directory, zip download, incremental display)
+- Comprehensive in-app help system
+
+🔮 Future Plans:
+- Docker containerization
+- Live demo deployment
+- Expanded crew, agent, and task configuration options
+- Single task execution support
+
+We're constantly evolving! For feature requests or suggestions, please [open an issue](https://github.com/alexnodeland/crewlit/issues).
+
 ## 📄 License
 
 Crewlit is open-source software licensed under the MIT license. See the [LICENSE](LICENSE) file for more details.
@@ -68,7 +87,7 @@ I'd like to thank the creators of [CrewAI](https://crewai.com/) ([@joaomdmoura](
 
 ## 🤝 Support
 
-If you encounter any issues or have questions, please [open an issue](https://github.com/yourusername/crewlit/issues) on the GitHub repository.
+If you encounter any issues or have questions, please [open an issue](https://github.com/alexnodeland/crewlit/issues) on the GitHub repository.
 
 ---
 
